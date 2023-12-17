@@ -5,7 +5,7 @@
 ![image](https://github.com/ba1213022/ES-Fall2023/assets/145248354/19d91c2e-db7f-4f28-88f7-efc0c563f2dc)
 
 
-## Lab 9-2 實作練習 & Python的5個回顧練習, 1W
+## Lab 9-2 實作練習 1W
 
 ### 實作1: 從已提供的選項中,找1張自己喜歡的照片來試試看
 
