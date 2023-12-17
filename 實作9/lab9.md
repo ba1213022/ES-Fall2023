@@ -2,7 +2,7 @@
 
 ## Lab 9-1 AI應用起手式: 使用 TensorFlow Hub 進行圖像分類, 1W
 
-![image](https://user-images.githubusercontent.com/89304181/202887279-e1767bfb-b047-4ce4-a3e1-ea857f764e31.png)
+![image](https://github.com/ba1213022/ES-Fall2023/assets/145248354/19d91c2e-db7f-4f28-88f7-efc0c563f2dc)
 
 
 ## Lab 9-2 實作練習 & Python的5個回顧練習, 1W
@@ -13,15 +13,16 @@
 
 ### 實作2: 從網路上找3張自己喜歡的照片來試試看 (jpg/png)
 
-![image](https://user-images.githubusercontent.com/89304181/202887531-d016178c-3f5a-4598-942e-b7496c734a04.png)
+![image](https://github.com/ba1213022/ES-Fall2023/assets/145248354/85492f77-47cb-419e-9397-43859d75f1b9)
 
-![image](https://user-images.githubusercontent.com/89304181/202887659-0d47d154-86a6-4312-9244-76dcee49c2be.png)
+![image](https://github.com/ba1213022/ES-Fall2023/assets/145248354/8f423b5f-1d71-4f9e-877d-5f14f1d17747)
 
-![image](https://user-images.githubusercontent.com/89304181/202887694-42468421-cafe-4239-bef4-3b354f43d856.png)
+![image](https://github.com/ba1213022/ES-Fall2023/assets/145248354/636e741a-9a20-44f0-b9ab-f728d6b6c89d)
+
 
 ### Reference Code
 ```python
-image_name = 'airplane' 
+image_name = 'basketball'
 
 images_for_test_map = {
     "tiger": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg",
@@ -35,7 +36,9 @@ images_for_test_map = {
     "piano": "https://upload.wikimedia.org/wikipedia/commons/d/da/Steinway_%26_Sons_upright_piano%2C_model_K-132%2C_manufactured_at_Steinway%27s_factory_in_Hamburg%2C_Germany.png",
     "honeycomb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Honey_comb.jpg",
     "teapot": "https://upload.wikimedia.org/wikipedia/commons/4/44/Black_tea_pot_cropped.jpg",
-    'airplane': 'https://cdn.britannica.com/41/123141-050-E6229449/Air-New-Zealand-Boeing-747-400.jpg'
+    "basketball":"https://www.wilson.com/en-us/media/catalog/product/article_images/WTB7500ID_/WTB7500ID__b722ae318490e0f2e686864dc70fd730.png",
+    "f1":"https://photo.8891.com.tw/nc/newcar/article/2023/02/16/1676544008190661_1400_0.jpg",
+    "ducati":"https://www.insidemotorcycles.com/wp-content/uploads/2023/03/JRB9358_UC494245_High-resized.jpg"
 }
 
 img_url = images_for_test_map[image_name]
