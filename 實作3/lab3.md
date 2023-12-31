@@ -11,6 +11,7 @@
 
 ## 程式
 
+`````C
 int inches = 0;
 
 int cm = 0;
@@ -44,3 +45,5 @@ void loop()
   Serial.println("cm");
   delay(100); // Wait for 100 millisecond(s)
 }
+
+`````
